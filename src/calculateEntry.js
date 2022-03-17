@@ -1,6 +1,6 @@
 const data = require('../data/zoo_data');
 
-const {prices} = data;
+const { prices } = data;
 
 const entrant = [
   { name: 'Lara Carvalho', age: 5 },
