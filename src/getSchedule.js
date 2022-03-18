@@ -1,6 +1,6 @@
 const data = require('../data/zoo_data');
 
-const { species, hours} = data;
+const { species, hours } = data;
 
 const seForDia = (diaPedido) => {
   const doDia = species
@@ -63,8 +63,8 @@ function getSchedule(scheduleTarget) {
   if (verificaDia(scheduleTarget)) {
     return seForDia(scheduleTarget);
   }
-  if (species.some(({ name}) => name === scheduleTarget)) {
-    return species.find(({ name }) => name === scheduleTarget).availability
+  if (species.some(({ name }) => name === scheduleTarget)) {
+    return species.find(({ name }) => name === scheduleTarget).availability;
   }
   return semParametro();
 }
