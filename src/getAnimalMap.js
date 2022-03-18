@@ -2,17 +2,15 @@ const data = require('../data/zoo_data');
 
 const { species } = data;
 
-const retornoComLocalizacao = () => {
-  return species.reduce((acc, { location, name }) => {
-    if (!acc[location]) {
-      acc[location] = [];
-      acc[location].push(name);
-    } else {
-      acc[location].push(name);
-    }
-    return acc;
-  }, {});
-};
+const retornoComLocalizacao = () => species.reduce((acc, { location, name }) => {
+  if (!acc[location]) {
+    acc[location] = [];
+    acc[location].push(name);
+  } else {
+    acc[location].push(name);
+  }
+  return acc;
+}, {});
 
 console.log(retornoComLocalizacao());
 
