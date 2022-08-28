@@ -29,12 +29,12 @@ A linguagem utilizada no desenvolvimento do projeto foi o JavaScript (JS), uma l
 - Utilizar funções de diferentes formas, bem como reutilizar lógicas de códigos;
 - Aplicar o conceito de **Higher Order Functions** com JS;
 - Compreender o que é uma linguagem **First-Class Functions**;
-- Utilizar a função Array.**forEach** para iterar sobre todos os elementos de um array;
-- Utilizar a função Array.**find** para encontrar o primeiro elemento de um array que satisfaça a uma condição;
-- Utilizar as funções Array.**some** e Array.**every** para testar se os elementos de um array satisfazem a uma condição;
-- Utilizar a função Array.**sort** para ordenar arrays de acordo com algum critério;
-- Utilizar a função Array.**map** para manipular e construir arrays;
-- Utilizar a função Array.**filter** para filtrar um array;
-- Utilizar a função Array.**reduce** para manipular e construir arrays;
+- Utilizar a função Array.```forEach``` para iterar sobre todos os elementos de um array;
+- Utilizar a função Array.```find``` para encontrar o primeiro elemento de um array que satisfaça a uma condição;
+- Utilizar as funções Array.```some``` e Array.```every``` para testar se os elementos de um array satisfazem a uma condição;
+- Utilizar a função Array.```sort``` para ordenar arrays de acordo com algum critério;
+- Utilizar a função Array.```map``` para manipular e construir arrays;
+- Utilizar a função Array.```filter``` para filtrar um array;
+- Utilizar a função Array.```reduce``` para manipular e construir arrays;
 - Utilizar essas HOFs de forma conjunta;
 -Aplicar corretamente **spread operator**, **parâmetro rest**, **object destructuring**, **array destructuring**, **default destructuring**, **abbreviation object literal**, **default params**.
